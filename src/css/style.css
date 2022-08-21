@@ -4,6 +4,7 @@
 }
 
 html[theme="dark-mode"] {
+  /* custom attribute */
   /* ! */
   filter: invert(100%) hue-rotate(180deg);
 }
@@ -151,9 +152,10 @@ input:checked + .slider::before {
 }
 
 .select-box select {
-  /* ! */
+  /* rem em
+  em : 해당 요소의 font-size 100px -> 0.9em -> 90px
+  rem : root(html) font-size 50px -> 0.9rem -> 45px */
   font-size: 0.9rem;
-  /* ! */
   padding: 2px 5px;
   height: 34px;
   width: 200px;
