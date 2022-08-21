@@ -18,3 +18,8 @@ html[theme="dark-mode"]
 ### JS
 
 [Private class fields](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
+
+## 사용한 event
+
+1. keyboard event
+2. form change event
